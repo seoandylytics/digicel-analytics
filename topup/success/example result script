@@ -17,7 +17,7 @@ dataLayer.push({
       },
       'products': [{                  
         'name': 'Top-up 3.73 USD',    
-        'id': 'topup373',
+        'id': 'topup373',      //Example ID that is topup+USD price without point
         'price': 3.73,
         'brand': 'Top UP',
         'category': 'Top UP',
@@ -27,7 +27,7 @@ dataLayer.push({
        },
        {
         'name': 'Roam Easy 30 days',  
-        'id': 'RE30days',
+        'id': 'RE30days',      //Example ID that is RE+period Roam Easy
         'price': 48.5,
         'brand': 'Roam Easy',
         'category':' Plans',
