@@ -1,0 +1,41 @@
+/**
+ * Example result code on a purchase of a top up oof 3.73 USD + Roam Easy plan 30 days.
+ */
+<script>
+var dataLayer  = window.dataLayer || [];
+dataLayer.push({
+  'event': 'transaction',
+  'ecommerce': {
+    'purchase': {
+      'actionField': {
+        'id': '2f680e96-3cbe-4ab1-b03a-dd2fc669e792',    
+        'affiliation': '',
+        'revenue': '52.23',          
+        'tax':'',
+        'shipping': '',
+        'coupon': ''
+      },
+      'products': [{                  
+        'name': 'Top-up 3.73 USD',    
+        'id': 'topup373',
+        'price': 3.73,
+        'brand': 'Top UP',
+        'category': 'Top UP',
+        'variant': '3.73',
+        'quantity': 1,
+        'coupon': ''                          
+       },
+       {
+        'name': 'Roam Easy 30 days',  
+        'id': 'RE30days',
+        'price': 48.5,
+        'brand': 'Roam Easy',
+        'category':' Plans',
+        'variant': '30 days',
+        'quantity': 1,
+        'coupon': ''  
+       }]
+    }
+  }
+});
+</script>
