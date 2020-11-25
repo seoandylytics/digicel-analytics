@@ -1,0 +1,17 @@
+//Replace VISA with the chekout option selected
+
+<script>
+/**
+ * A function to handle a click leading to a checkout option selection.
+ */
+function onCheckoutOption(step, checkoutOption) {
+  dataLayer.push({
+    'event': 'checkoutOption',
+    'ecommerce': {
+      'checkout_option': {
+        'actionField': {'step': 4, 'option': VISA}
+      }
+    }
+  });
+}
+</script>
